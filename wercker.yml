@@ -15,5 +15,6 @@ build:
         code: |
           echo "python version $(python --version) running"
           echo "pip version $(pip --version) running"
-          python app_test.py
+        name: test rethinkdb connection
+        code: python test.py
 
